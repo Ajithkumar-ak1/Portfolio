@@ -24,7 +24,7 @@ export default function Journey() {
           <div className="space-y-6 text-fog text-lg leading-relaxed max-w-xl">
             <Reveal>
               <p>
-                I got into engineering the way a lot of backend people do — through competitive
+                I got into engineering the way a lot of backend people do - through competitive
                 programming. Solving problems on LeetCode and Codeforces taught me to think in
                 terms of complexity and edge cases before I ever wrote a line of Spring Boot.
                 That habit stuck: I still sketch out the data model and failure cases before I
@@ -34,14 +34,14 @@ export default function Journey() {
             <Reveal delay={0.1}>
               <p>
                 During my internship at Telesoft, I got to see what that discipline looks like at
-                team scale — code reviews, Agile ceremonies, and the small, unglamorous decisions
+                team scale - code reviews, Agile ceremonies, and the small, unglamorous decisions
                 (role-based access, sync bugs, page-load regressions) that decide whether a
                 product actually works for users.
               </p>
             </Reveal>
             <Reveal delay={0.2}>
               <p>
-                Outside of work, I&rsquo;ve been building full products on my own — KnowTheRound
+                Outside of work, I&rsquo;ve been building full products on my own - KnowTheRound
                 and NextContest weren&rsquo;t tutorials I followed, they were systems I designed
                 from the schema up: auth, caching, background jobs, the parts that don&rsquo;t
                 show up in a demo but decide whether something survives real traffic.
@@ -49,7 +49,7 @@ export default function Journey() {
             </Reveal>
             <Reveal delay={0.3}>
               <p className="text-paper">
-                That&rsquo;s the part of engineering I&rsquo;m most drawn to — not just making
+                That&rsquo;s the part of engineering I&rsquo;m most drawn to - not just making
                 something work, but making it hold up.
               </p>
             </Reveal>

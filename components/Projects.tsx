@@ -5,7 +5,7 @@ const PROJECTS = [
     name: "NextContest",
     tagline: "Never miss a contest again",
     description:
-      "A competitive programming contest aggregator that unifies schedules from Codeforces, LeetCode, and CodeChef into one dashboard — with calendar views, reminders, and bookmarks. JWT + Google OAuth2 auth, a platform-isolated sync architecture across 3 independent APIs, and 40+ REST endpoints with scheduled background jobs.",
+      "A competitive programming contest aggregator that unifies schedules from Codeforces, LeetCode, and CodeChef into one dashboard - with calendar views, reminders, and bookmarks. JWT + Google OAuth2 auth, a platform-isolated sync architecture across 3 independent APIs, and 40+ REST endpoints with scheduled background jobs.",
     tags: ["Java", "Spring Boot", "PostgreSQL", "Spring Security", "OAuth2", "Flyway", "Caffeine"],
     href: "https://github.com/Ajithkumar-ak1/NextContest--Frontend",
     gradient: "from-indigo/25 via-surface2 to-surface",

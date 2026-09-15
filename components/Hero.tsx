@@ -2,7 +2,14 @@
 
 import { motion } from "framer-motion";
 
-const ORBIT_WORDS = ["secure", "scalable", "tested", "clean", "fast", "reliable"];
+const ORBIT_WORDS = [
+  "secure",
+  "scalable",
+  "tested",
+  "clean",
+  "fast",
+  "reliable",
+];
 
 export default function Hero() {
   return (
@@ -12,7 +19,9 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 md:px-10 relative">
         <div className="grid md:grid-cols-[1.15fr_0.85fr] gap-14 items-center">
           <div>
-            <p className="eyebrow mb-6">full-stack engineer · java / spring boot</p>
+            <p className="eyebrow mb-6">
+              full-stack engineer · java / spring boot
+            </p>
 
             <h1 className="font-serif text-[2.6rem] leading-[1.08] md:text-[3.6rem] md:leading-[1.05] font-medium tracking-tight text-paper">
               I build backend systems
@@ -23,18 +32,22 @@ export default function Hero() {
             </h1>
 
             <p className="mt-7 text-fog text-lg max-w-xl">
-              Full-stack engineer who leans backend — Java, Spring Boot, PostgreSQL, and just
-              enough React to ship the whole product. CS (AI &amp; ML) graduate, six months of
-              production code at Telesoft, and open to SDE roles now.
+              Full-stack engineer who leans backend - Java, Spring Boot,
+              PostgreSQL, and just enough React to ship the whole product. CS
+              (AI &amp; ML) graduate, six months of production code at Telesoft,
+              and open to SDE roles now.
             </p>
 
             <div className="mt-8 border-l-2 border-line pl-5 max-w-lg">
               <p className="font-serif italic text-paper/90 text-base leading-relaxed">
                 &ldquo;தெய்வத்தான் ஆகா தெனினும் முயற்சிதன்
-                       மெய்வருத்தக் கூலி தரும்.&rdquo;
+                <br />
+                மெய்வருத்தக் கூலி தரும்.&rdquo;
               </p>
+
               <p className="text-fog text-sm mt-2">
-                Even when fate seems against you, relentless effort will always earn its reward.<span className="text-fog/70"></span>
+                Even when fate seems against you, relentless effort will
+                always earn its reward.
               </p>
             </div>
 
@@ -45,6 +58,16 @@ export default function Hero() {
               >
                 View my work
               </a>
+
+              <a
+                href="/Ajith%20Kumar.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 rounded-full border border-line text-paper text-sm font-semibold hover:border-paper transition-colors"
+              >
+                View Resume
+              </a>
+
               <a
                 href="#contact"
                 className="px-6 py-3 rounded-full border border-line text-paper text-sm font-semibold hover:border-paper transition-colors"
@@ -60,6 +83,7 @@ export default function Hero() {
               const radius = 168;
               const x = Math.cos(angle) * radius;
               const y = Math.sin(angle) * radius;
+
               return (
                 <motion.span
                   key={word}
@@ -70,7 +94,11 @@ export default function Hero() {
                     transform: "translate(-50%, -50%)",
                   }}
                   animate={{ y: [0, -6, 0] }}
-                  transition={{ duration: 4 + i * 0.4, repeat: Infinity, ease: "easeInOut" }}
+                  transition={{
+                    duration: 4 + i * 0.4,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
                 >
                   {word}
                 </motion.span>
@@ -78,8 +106,13 @@ export default function Hero() {
             })}
 
             <div className="absolute inset-[18%] rounded-full border border-line" />
-            <div className="absolute inset-[30%] rounded-full bg-gradient-to-br from-indigo/30 via-surface2 to-surface flex items-center justify-center border border-line">
-              <span className="font-serif italic text-4xl md:text-5xl text-paper">AK</span>
+
+            <div className="absolute inset-[30%] rounded-full bg-gradient-to-br from-indigo/30 via-surface2 to-surface border border-line overflow-hidden flex items-center justify-center">
+              <img
+                src="/profile.png"
+                alt="Ajith Kumar"
+                className="w-full h-full object-cover scale-[1.18]"
+              />
             </div>
           </div>
         </div>

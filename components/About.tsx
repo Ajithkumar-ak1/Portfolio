@@ -23,7 +23,7 @@ export default function About() {
             <Reveal delay={0.1}>
               <p className="mt-6 text-fog text-lg leading-relaxed max-w-xl">
                 A backend-leaning full-stack engineer who cares about systems that hold up under
-                real traffic — not just demos. I like APIs that are secure by default, data
+                real traffic - not just demos. I like APIs that are secure by default, data
                 models that don&rsquo;t fight you later, and code reviews that leave the codebase
                 better than they found it.
               </p>

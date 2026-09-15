@@ -21,7 +21,7 @@ import "@fontsource/jetbrains-mono/700.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ajith Kumar — Full-Stack Engineer (Java / Spring Boot)",
+  title: "Ajith Kumar - Full-Stack Engineer (Java / Spring Boot)",
   description:
     "Full-stack engineer building secure, scalable backend systems with Java, Spring Boot, and clean React frontends. Open to SDE roles.",
 };

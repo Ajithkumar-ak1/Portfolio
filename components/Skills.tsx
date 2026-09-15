@@ -43,13 +43,13 @@ export default function Skills() {
             <Reveal delay={0.1}>
               <p className="mt-6 text-fog text-lg leading-relaxed max-w-md">
                 I bring together backend engineering, clean API design, and just enough frontend
-                to ship a full product — the right data model, the right caching strategy, and
+                to ship a full product - the right data model, the right caching strategy, and
                 endpoints that hold up under load.
               </p>
             </Reveal>
             <Reveal delay={0.2}>
               <p className="mt-4 text-fog text-lg leading-relaxed max-w-md">
-                I care about what actually makes a backend reliable — auth done right, queries
+                I care about what actually makes a backend reliable - auth done right, queries
                 that don&rsquo;t fall over at scale, and code that&rsquo;s easy for the next
                 engineer to read.
               </p>
